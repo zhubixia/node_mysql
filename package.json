@@ -1,0 +1,33 @@
+{
+  "name": "node_mysql",
+  "version": "1.0.0",
+  "description": "how to use node and mysql to write api",
+  "main": "./src/main.js",
+  "scripts": {
+    "serve": "supervisor ./src/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BeerHope/node_mysql.git"
+  },
+  "keywords": [
+    "node",
+    "mysql",
+    "express"
+  ],
+  "author": "zhubixia",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BeerHope/node_mysql/issues"
+  },
+  "homepage": "https://github.com/BeerHope/node_mysql#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "mysql": "^2.18.1"
+  }
+}
